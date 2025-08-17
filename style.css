@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border:2px solid red;
+    /* border:2px solid red; */
 }
 .nav-link{
     display: flex;
@@ -31,15 +31,16 @@ body{
 .banner{
      display: flex;
      justify-content: space-between;
-      border: 2px solid green;
+      /* border: 2px solid green; */
       width: 100%; 
       margin-bottom: 50px; 
     
 }
 .banner-contant{
-    border: 2px solid blue;
-    padding: 100px 0 0 0;
+    /* border: 2px solid blue; */
+    padding: 100px 70px 0 0;
     align-items:end;
+    width: 100%;
     
 }
 .banner-tittle{
@@ -47,19 +48,21 @@ body{
      font-weight: 600;
 }
 .banner-description{
-    font-size:2.98rem ;
+    font-size:3.98rem ;
+    font-weight: 600;
+    color: #252432;
 }
 .banner-img{
     width: 100%;
     padding:80px 0 0 220px;
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
 }
 #banner-style{
     color:#E95A08 ;
 }
         /* Plants section */
 .plants-container{
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }        
 .plants-content{
     font-size: 3rem;
@@ -67,7 +70,9 @@ body{
 }
 .plants-discription{
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    padding:0 0 50px 0;
+    color:#252432;
 }
 .plants{
      margin:0 0 30px 0;
@@ -100,7 +105,35 @@ body{
     grid-template-columns:auto auto auto auto;
     gap:20px;
 }
+/* flower section */
+.flower-container{
+    display: flex;
+    /* width: 100%; */
+    border: 5px sold brown;
+}
+.flower-img{
+    width: 100%;
+}
+.flower-img img{
+    width: 300px;
+    height: 250px;
+}
+.flower-section{
+    width: 100%;
+}
+.flower-description{
+    color: #252432;
+    font-size: 1rem;
+}
 /* Responsive media quary */
 @media screen and (max-width:576){
-    
+    .navbar{
+        display: none;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .card-container{
+        grid-template-columns:repeat(2,2fr);
+    }
 }
