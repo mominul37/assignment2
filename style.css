@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border:2px solid red; */
+
 }
 .nav-link{
     display: flex;
@@ -31,39 +31,30 @@ body{
 .banner{
      display: flex;
      justify-content: space-between;
-      /* border: 2px solid green; */
       width: 100%; 
       margin-bottom: 50px; 
     
 }
-.banner-contant{
-    /* border: 2px solid blue; */
-    padding: 100px 70px 0 0;
-    align-items:end;
+.banner-content{
+    padding: 200px 80px 0 0;
     width: 100%;
-    
 }
 .banner-tittle{
      font-size: 3rem;
      font-weight: 600;
 }
-.banner-description{
-    font-size:3.98rem ;
-    font-weight: 600;
+.banner-discription{
     color: #252432;
 }
 .banner-img{
     width: 100%;
-    padding:80px 0 0 220px;
-    /* border: 2px solid tomato; */
+    padding:80px 0 0 90px;
+     margin-left: 50px;
 }
 #banner-style{
     color:#E95A08 ;
 }
-        /* Plants section */
-.plants-container{
-    /* border: 2px solid green; */
-}        
+        /* Plants section */      
 .plants-content{
     font-size: 3rem;
     text-align: center;
@@ -79,11 +70,9 @@ body{
 }
 .card{
   box-shadow:0 4px 8px 0 rgb(248, 243, 243) ;
-  /* margin: auto; */
   max-width: 280px;
   text-align: center;
-  /* border: 1px solid yellow; */
-  
+    
 }
 .card button{
     border: none;
@@ -108,22 +97,30 @@ body{
 /* flower section */
 .flower-container{
     display: flex;
-    /* width: 100%; */
-    border: 5px sold brown;
+    margin-top:100px;
 }
 .flower-img{
     width: 100%;
+    
 }
-.flower-img img{
-    width: 300px;
-    height: 250px;
+.flower-img img{ 
+     width: auto; 
+    height: auto; 
+    padding: 70px 0 0 30px;
+
 }
 .flower-section{
     width: 100%;
+    padding: 70px 70px;
 }
+.flower-section h1{
+    font-size: 5rem;
+
+}
+
 .flower-description{
     color: #252432;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 /* Responsive media quary */
 @media screen and (max-width:576){
