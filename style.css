@@ -144,7 +144,58 @@ body{
 .latest h1{
     font-size: 3.5rem;
 }
-/*  */
+/* Join section */
+.join-container{
+    display: grid;
+     grid-template-columns:1fr 1fr;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+.join-container1{
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      gap: 20px;
+}
+.join1{
+    background-image: url(/assets/deal-bloom.png);
+    height: 200px;
+    width: 350px;
+    border-radius:10px ;
+    
+}
+.join2{
+    background-image: url(/assets/deal-ana.png);
+    width:350px;
+    height:200px;
+    border-radius: 10px;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+.join-descript{
+    /* text-align: center; */
+    color:white;
+    justify-content: center;
+    display: flex;
+}
+.join3{
+    background-image: url(/assets/deal-zabo.png);
+    border-radius: 20px;
+    padding:140px 140px;
+}
+.join-tittle{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.join-descript2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.rem;
+}
 /* Responsive media quary */
 @media screen and (max-width:576){
     .navbar{
@@ -155,5 +206,8 @@ body{
     }
     .card-container{
         grid-template-columns:repeat(2,2fr);
+    }
+    .join-container{
+        grid-template-columns: 1fr 1fr;
     }
 }
