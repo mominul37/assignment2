@@ -223,6 +223,55 @@ h3{
     border: none;
     
 }
+/* footer section */
+.footer-container{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+
+}
+.footer-description{
+    color: #8987A1;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.footer-listA{
+    display: flex;
+
+}
+.footer-list1{
+    color: #8987A1;
+    list-style: none;
+    gap:25px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+
+}
+.footer-listB{
+    gap: 10px;
+}
+.footer-list2{
+    color: #8987A1;
+    list-style: none;
+    gap:25px;
+    display: flex;
+    flex-direction: column;
+
+}
+.logo{
+    text-align:center;
+
+}
+.footer-img-container{
+    gap: 20px;
+    display: flex;
+    padding: 20px 0 0 0; 
+}
+.footer-img{
+    width: 20px;
+    height: 20px;
+}
+
 /* Responsive media quary */
 @media screen and (max-width:576){
     .navbar{
